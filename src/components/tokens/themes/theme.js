@@ -1,0 +1,87 @@
+const unit = 4;
+
+const theme = {
+	// Space
+	space: [
+		0, unit, unit * 2, unit * 3, unit * 4, unit * 5, unit * 6, unit * 7, unit * 8, unit * 9, unit * 10, unit * 11, unit * 12,
+	],
+	// Color
+	colors: {
+		white: "#FFF",
+		grey99: "#FCFCFC",
+		grey85: "#D9D9D9",
+		grey76: "#C2C2C2",
+		grey65: "#A6A6A6",
+		grey50: "#808080",
+		grey45: "#737373",
+		grey37: "#5E5E5E",
+		grey30: "#4D4D4D",
+		grey25: "#404040",
+		grey21: "#363636",
+		grey17: "#2B2B2B",
+		grey10: "#1A1A1A",
+		black: "#000",
+	},
+
+	// Typography
+	fontSizes: [
+		8, 10, 11, 12, 14, 16, 18
+	],
+	fonts: {
+		arial: 'Arial',
+		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
+	},
+	lineHeights: [
+		unit * 3, unit * 4, unit * 5, unit * 6,
+	],
+	weights: [400, 500, 600],
+	textStyles: {
+		t1: {
+			fontSize: '18px',
+			lineHeight: '24px',
+			fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+			fontWeight: 500,
+		},
+		t2: {
+			fontSize: '14px',
+			lineHeight: '16px',
+			fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+			fontWeight: 600,
+		},
+		t3: {
+			fontSize: '12px',
+			lineHeight: '16px',
+			fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
+			fontWeight: 600,
+		},
+	},
+
+	// Borders
+	borders: [
+		0, 1, 2, 3,
+	],
+
+	// Misc
+	radii: [0, 2, 3],
+	shadows: [
+		0,
+		'rgba(0, 0, 0, 0.4) 0px 0px 24px 0px, rgba(0, 0, 0, 0.4) 0px 2px 4px 0',
+	],
+	opacity: [
+		0, 1 / 4, 1 / 2, 3 / 4, 1
+	],
+	motion: {
+		fast: '100ms ease',
+		fastEntry: '100ms ease-out',
+		fastExit: '100mms ease-in',
+		defaultSlow: '150ms ease',
+		medium: '150ms ease',
+		mediumEntry: '150ms ease',
+		mediumExit: '150ms ease',
+		slow: '200ms ease',
+		slowExit: '200ms ease',
+		slowEntry: '200ms ease',
+	}
+}
+
+export default theme
