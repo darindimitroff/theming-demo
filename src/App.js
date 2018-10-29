@@ -19,13 +19,10 @@ const GlobalStyle = createGlobalStyle`
   }
   * {
     box-sizing: inherit;
-    line-height: 16px;
+    line-height: 1.45
   }
   body {
     font-size: 11px;
-    line-height: 16px;
-    color: #D9D9D9;
-    font-family: Arial;
   }
   input {
     min-width: 0;
@@ -47,7 +44,7 @@ class App extends Component {
             <Sidebar>
               <Grid gap={8} width={1}>
                 <Button mb={2}>Button text</Button>
-                <Input mb={2} />
+                <Input mb={2} value="Value" />
               </Grid>
               <Grid width={1}>
                 <Button mb={2}>Full-width button</Button>

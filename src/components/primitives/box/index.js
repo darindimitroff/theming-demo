@@ -55,7 +55,9 @@ const Box = system(
 )
 
 Box.defaultProps = {
-	fontFamily: 'arial',
+	'fontFamily': 'arial',
+	'fontSize': 2,
+	'lineHeight': "16px",
 }
 
 Box.displayName = 'Box'

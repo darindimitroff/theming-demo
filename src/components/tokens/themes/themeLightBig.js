@@ -1,6 +1,6 @@
 import palette from './palette'
 
-const unit = 4;
+const unit = 8;
 
 const theme = {
 	// Space
@@ -27,7 +27,7 @@ const theme = {
 
 	// Typography
 	fontSizes: [
-		8, 10, 11, 12, 14, 16, 18,
+		8, 10, 14, 16, 20, 24, 28,
 	],
 	fonts: {
 		arial: 'Arial',

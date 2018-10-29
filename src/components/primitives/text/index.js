@@ -9,6 +9,7 @@ const Text = system(
 	'color',
 	'fontSize',
 	'fontWeight',
+	'fontFamily',
 	'lineHeight',
 	'letterSpacing',
 	'textAlign',
@@ -17,7 +18,10 @@ const Text = system(
 )
 
 Text.defaultProps = {
-	is: 'p',
+	is: 'span',
+	'fontFamily': 'Arial',
+	'fontSize': 2,
+	'lineHeight': "16px",
 }
 
 Text.displayName = 'Text'

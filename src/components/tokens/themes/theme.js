@@ -1,3 +1,5 @@
+import palette from './palette'
+
 const unit = 4;
 
 const themeLight = {
@@ -7,25 +9,25 @@ const themeLight = {
 	],
 	// Color
 	colors: {
-		white: "#FFF",
-		grey99: "#FCFCFC",
-		grey85: "#D9D9D9",
-		grey76: "#C2C2C2",
-		grey65: "#A6A6A6",
-		grey50: "#808080",
-		grey45: "#737373",
-		grey37: "#5E5E5E",
-		grey30: "#4D4D4D",
-		grey25: "#404040",
-		grey21: "#363636",
-		grey17: "#2B2B2B",
-		grey10: "#1A1A1A",
-		black: "#000",
+		white: palette.white,
+		grey99: palette.grey99,
+		grey85: palette.grey85,
+		grey76: palette.grey76,
+		grey65: palette.grey65,
+		grey50: palette.grey50,
+		grey45: palette.grey45,
+		grey37: palette.grey37,
+		grey30: palette.grey30,
+		grey25: palette.grey25,
+		grey21: palette.grey21,
+		grey17: palette.grey17,
+		grey10: palette.grey10,
+		black: palette.black,
 	},
 
 	// Typography
 	fontSizes: [
-		8, 10, 11, 12, 14, 16, 18
+		8, 10, 11, 12, 14, 16, 18,
 	],
 	fonts: {
 		arial: 'Arial',
