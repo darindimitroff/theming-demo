@@ -25,6 +25,7 @@ const Box = system(
 	'textStyle',
 	// Flexbox
 	'justifyContent',
+	'alignItems',
 	// Borders
 	'border',
 	'borderTop',

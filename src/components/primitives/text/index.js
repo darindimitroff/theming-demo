@@ -13,11 +13,11 @@ const Text = system(
 	'letterSpacing',
 	'textAlign',
 	'textStyle',
+	'textTransform',
 )
 
 Text.defaultProps = {
 	is: 'p',
-	fontFamily: 'arial',
 }
 
 Text.displayName = 'Text'
