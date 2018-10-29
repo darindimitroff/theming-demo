@@ -29,10 +29,6 @@ class App extends Component {
             <Sidebar>
               <Input />
               <Button>Hello world</Button>
-              <Button>Hello world</Button>
-              <Button>Hello world</Button>
-              <Button>Hello world</Button>
-              <Button>Hello world</Button>
             </Sidebar>
           </Screen>
         </ThemeWrapper>
