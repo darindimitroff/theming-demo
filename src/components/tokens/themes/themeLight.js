@@ -1,6 +1,6 @@
 const unit = 4;
 
-const themeLight = {
+const theme = {
 	// Space
 	space: [
 		0, unit, unit * 2, unit * 3, unit * 4, unit * 5, unit * 6, unit * 7, unit * 8, unit * 9, unit * 10, unit * 11, unit * 12,
@@ -84,4 +84,4 @@ const themeLight = {
 	}
 }
 
-export default themeLight
+export default theme
