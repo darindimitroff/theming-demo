@@ -12,11 +12,11 @@ const Image = system(
 	'height',
 	'size',
 	'maxWidth',
+	'color',
 )
 
 Image.defaultProps = {
 	is: 'img',
-	src: 'https://cdn.pbrd.co/images/HCuvto6.png',
 	maxWidth: '100%',
 }
 
