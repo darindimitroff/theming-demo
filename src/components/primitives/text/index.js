@@ -19,7 +19,7 @@ const Text = system(
 
 Text.defaultProps = {
 	is: 'span',
-	'fontFamily': 'Arial',
+	'fontFamily': 'system',
 	'fontSize': 2,
 	'lineHeight': "16px",
 }
