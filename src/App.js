@@ -12,6 +12,8 @@ import Grid from 'react-css-grid'
 import Input from './components/atoms/input'
 import Button from './components/atoms/button'
 
+import { ReactComponent as SettingsIcon } from 'assets/settings-medium.svg'
+
 const GlobalStyle = createGlobalStyle`
   ${reset}
   html {
@@ -51,6 +53,9 @@ class App extends Component {
               </Grid>
               <Grid width={1}>
                 <Input mb={2} unit="px" value="Value" />
+              </Grid>
+              <Grid width={1}>
+                <Button icon={<SettingsIcon width="16px" height="16px" />}>Open settings</Button>
               </Grid>
             </Sidebar>
           </Screen>
