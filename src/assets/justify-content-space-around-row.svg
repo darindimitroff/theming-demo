@@ -1,0 +1,8 @@
+<svg viewBox="0 0 26 20" xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor" fill-rule="evenodd">
+    <path d="M9 6V2H8v4h1zm0 8v4H8v-4h1zm8-12h1v16h-1z" opacity=".5"/>
+    <path d="M15 6h5v8h-5z"/>
+    <path opacity=".4" d="M6 6h5v8H6z"/>
+    <path d="M6 6h5v8H6V6zm1 1h3v6H7V7z"/>
+  </g>
+</svg>

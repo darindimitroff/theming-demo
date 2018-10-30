@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <path d="M1 1h14v14H1z" opacity=".3"/>
+  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="1" y1="8.003" x2="15.002" y2="8.003">
+    <stop stop-color="#111111" offset="0" stop-opacity="0"/>
+    <stop stop-color="#111111" offset=".884"/>
+  </linearGradient>
+  <path fill="url(#a)" d="M1 1h14.002v14.006H1z"/>
+  <path fill="currentColor" d="M1 9h2v2H1zm2-2h2v2H3zM1 5h2v2H1zm2-2h2v2H3zM1 1h2v2H1zm4 8h2v2H5zm2-2h2v2H7zm-4 4h2v2H3zm4 0h2v2H7zM5 5h2v2H5zm2-2h2v2H7zm4 4h2v2h-2zm0 4h2v2h-2zm0-8h2v2h-2zM5 1h2v2H5zm4 8h2v2H9zm-8 4h2v2H1zm4 0h2v2H5zm4 0h2v2H9zm0-8h2v2H9zm0-4h2v2H9zm4 8h2v2h-2zm0 4h2v2h-2zm0-8h2v2h-2zm0-4h2v2h-2z"/>
+</svg>

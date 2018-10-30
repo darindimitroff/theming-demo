@@ -1,0 +1,6 @@
+<svg viewBox="0 0 10 32" xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor" fill-rule="evenodd">
+    <path d="M7 8V0H6v8h1zm0 16v8H6v-8h1zM0 0h6v1H0V0zm0 31h6v1H0v-1z" opacity=".3"/>
+    <path d="M9.003 16v-1.5a2.5 2.5 0 0 0-4.95-.5h1.04a1.5 1.5 0 0 1 2.916.5V16H4a1 1 0 0 0-1 1.01V20h7v-2.99A1 1 0 0 0 9.003 16zM7 18.495c0 .28-.232.505-.5.505a.495.495 0 0 1-.5-.505v-.99c0-.28.232-.505.5-.505.276 0 .5.214.5.505v.99z" opacity=".6"/>
+  </g>
+</svg>

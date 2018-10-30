@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+  <path fill="currentColor" d="M7.5 3C10 3 12 5 12 7.5S10 12 7.5 12 3 10 3 7.5 5 3 7.5 3m0-1C4.5 2 2 4.5 2 7.5S4.5 13 7.5 13 13 10.5 13 7.5 10.5 2 7.5 2z"/>
+  <path fill="currentColor" d="M7 1h1v4H7zm0 9h1v4H7zM1 7h4v1H1zm9 0h4v1h-4zm4 0v1c.3 0 .5-.2.5-.5S14.3 7 14 7zM1 8V7c-.3 0-.5.2-.5.5s.2.5.5.5zm7 6H7c0 .3.2.5.5.5s.5-.2.5-.5zM7 1h1c0-.3-.2-.5-.5-.5S7 .7 7 1z"/>
+  <circle fill="currentColor" cx="7.5" cy="7.5" r="1.1"/>
+</svg>

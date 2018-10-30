@@ -1,0 +1,10 @@
+<svg viewBox="0 0 26 20" xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor" fill-rule="evenodd">
+    <path opacity=".5" d="M24 2h1v16h-1zM0 2h1v16H0zm12 0h1v16h-1z"/>
+    <path opacity=".4" d="M14 4h9v5h-9z"/>
+    <path d="M14 4h9v5h-9V4zm1 1h7v3h-7V5z"/>
+    <path opacity=".4" d="M14 10h9v5h-9z"/>
+    <path d="M14 10h9v5h-9v-5zm1 1h7v3h-7v-3z"/>
+    <path d="M2 10h9v5H2zm0-6h9v5H2z"/>
+  </g>
+</svg>
