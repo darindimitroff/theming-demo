@@ -30,8 +30,8 @@ const themeLight = {
 		8, 10, 11, 12, 14, 16, 18,
 	],
 	fonts: {
-		arial: 'Arial',
-		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
+		'inter': 'Inter UI',
+		'system': 'ButtonGroupWrapper-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
 	},
 	lineHeights: [
 		unit * 3, unit * 4, unit * 5, unit * 6,
