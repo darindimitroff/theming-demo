@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
   }
   body {
-    font-family: 'Inter UI';
+    font-family: Inter UI!important;
     font-size: 11px;
     color: #D9D9D9;
   }
