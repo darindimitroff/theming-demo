@@ -14,13 +14,15 @@ const Text = system(
 	'letterSpacing',
 	'textAlign',
 	'textStyle',
-	'textTransform',
+	'display',
 )
 
 Text.defaultProps = {
 	is: 'span',
 	'fontSize': 2,
-	'lineHeight': "16px",
+	display: 'block',
+	'lineHeight': '16px',
+	'color': 'grey85',
 }
 
 Text.displayName = 'Text'

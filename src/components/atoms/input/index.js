@@ -5,7 +5,7 @@ import Text from 'components/primitives/text'
 
 const Input = props => {
     return (
-        <Flex {...props} alignItems="center" position="relative" overflow="hidden">
+        <Flex {...props} width={1} alignItems="center" position="relative" overflow="hidden">
             <Box is="input" width={1} border={1} pl={2} py={1} pr={8} color="grey85" bg="grey17" borderColor="grey10" borderRadius={1} />
 
             {/* Render a unit only if one is passed */}

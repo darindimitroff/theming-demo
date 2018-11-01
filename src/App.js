@@ -16,7 +16,8 @@ import Button from './components/atoms/button'
 import ButtonGroup from './components/atoms/buttonGroup'
 import ButtonSegment from './components/atoms/buttonSegment'
 import Select from './components/atoms/select'
-import Label from './components/atoms/label'
+
+import LabelWithControl from './components/molecules/LabelWithControl'
 
 import { ReactComponent as SettingsIcon } from 'assets/settings-medium.svg'
 
@@ -61,10 +62,15 @@ class App extends Component {
           <Screen>
             <Sidebar>
               <Box><Button mb={2}>Button text</Button></Box>
+
               <Input mb={2} value="Value" />
+
               <Button mb={2} width={1}>Full-width button</Button>
+
               <Input mb={2} unit="px" value="Value" />
+
               <Button width={1} mb={2} icon={<SettingsIcon width="16px" height="16px" />}>Open settings</Button>
+
               <ButtonGroup mb={2}>
                 <ButtonSegment>Text</ButtonSegment>
                 <ButtonSegment>Text</ButtonSegment>
@@ -72,7 +78,13 @@ class App extends Component {
                 <ButtonSegment>Text</ButtonSegment>
                 <ButtonSegment>Text</ButtonSegment>
               </ButtonGroup>
-              <Select current="Select this thing" icon={<SettingsIcon width="16px" height="16px" />} />
+
+              <Select mb={2} current="Select this thing" icon={<SettingsIcon width="16px" height="16px" />} />
+
+              <LabelWithControl label="Label" layout="stacked">
+                <Input />
+              </LabelWithControl>
+
             </Sidebar>
           </Screen>
         </ThemeWrapper>

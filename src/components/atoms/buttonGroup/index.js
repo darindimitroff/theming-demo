@@ -21,7 +21,7 @@ const ButtonGroupWrapper = styled(Box)`
 
 const ButtonGroup = props => {
     return (
-        <ButtonGroupWrapper mb={2}>
+        <ButtonGroupWrapper {...props}>
             {props.children}
         </ButtonGroupWrapper>
     )

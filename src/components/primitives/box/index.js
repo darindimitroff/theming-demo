@@ -24,9 +24,6 @@ const Box = system(
 	'letterSpacing',
 	'textAlign',
 	'textStyle',
-	// Flexbox
-	'justifyContent',
-	'alignItems',
 	// Borders
 	'border',
 	'borderTop',
@@ -50,6 +47,18 @@ const Box = system(
 	'opacity',
 	// TODO
 	// Shadows
+	// Flexbox
+	'justifyContent',
+	'flexWrap',
+	'flexDirection',
+	'flex',
+	'alignContent',
+	'justifyItems',
+	'justifySelf',
+	'alignSelf',
+	'alignItems',
+	'order',
+	'flexBasis'
 	// Opacity
 	// Text Styles
 	// Color Styles (maybe later)
@@ -58,6 +67,7 @@ const Box = system(
 Box.defaultProps = {
 	'fontSize': 2,
 	'lineHeight': "16px",
+	'color': 'grey85',
 }
 
 Box.displayName = 'Box'

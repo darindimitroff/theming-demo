@@ -1,11 +1,11 @@
 import React from 'react'
-import Box from 'components/primitives/box'
+import Flex from 'components/atoms/flex'
 
 const Icon = props => {
     return (
-        <Box is="i" display="flex" alignItems="center" justifyContent="center" width={props.width} height={props.height} {...props}>
+        <Flex is="i" alignItems="center" justifyContent="center" width={props.width} height={props.height} {...props}>
             {props.glyph}
-        </Box>
+        </Flex>
     )
 }
 

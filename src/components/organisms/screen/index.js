@@ -1,9 +1,9 @@
 import React from 'react'
-import Box from 'components/primitives/box'
+import Flex from 'components/atoms/flex'
 
 const Screen = props => {
     return (
-        <Box display="flex" width="100vw" height="100vh" justifyContent="flex-end">{props.children}</Box>
+        <Flex width="100vw" height="100vh" justifyContent="flex-end">{props.children}</Flex>
     )
 }
 
