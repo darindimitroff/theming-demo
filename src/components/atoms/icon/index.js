@@ -3,7 +3,7 @@ import Box from 'components/primitives/box'
 
 const Icon = props => {
     return (
-        <Box is="i" display="flex" alignItems="center" width={props.width} height={props.height} {...props}>
+        <Box is="i" display="flex" alignItems="center" justifyContent="center" width={props.width} height={props.height} {...props}>
             {props.glyph}
         </Box>
     )
