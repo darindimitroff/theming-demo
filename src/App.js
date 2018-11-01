@@ -16,27 +16,24 @@ import Button from './components/atoms/button'
 import ButtonGroup from './components/atoms/buttonGroup'
 import ButtonSegment from './components/atoms/buttonSegment'
 import Select from './components/atoms/select'
+import Label from './components/atoms/label'
 
 import { ReactComponent as SettingsIcon } from 'assets/settings-medium.svg'
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
-  @font-face {
-    font-family: 'Inter UI';
-    font-style:  normal;
-    font-weight: 400;
-    src: url("./assets/fonts/Inter-UI-Regular.woff2") format("woff2");
-  }
+  @import url('https://rsms.me/inter/inter-ui.css');
   html {
     box-sizing: border-box;
   }
   * {
     box-sizing: inherit;
-    line-height: 1.45;
+    line-height: 1.5;
   }
   body {
     font-family: 'Inter UI';
     font-size: 11px;
+    color: #D9D9D9;
   }
   input {
     min-width: 0;
