@@ -29,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: inherit;
     line-height: 1.5;
+    font-family: inherit;
   }
   body {
     font-family: Inter UI!important;

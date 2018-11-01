@@ -31,7 +31,7 @@ const themeLight = {
 	],
 	fonts: {
 		'inter': 'Inter UI',
-		'system': 'ButtonGroupWrapper-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
+		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
 	},
 	lineHeights: [
 		unit * 3, unit * 4, unit * 5, unit * 6,
@@ -41,19 +41,16 @@ const themeLight = {
 		t1: {
 			fontSize: '18px',
 			lineHeight: '24px',
-			fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
 			fontWeight: 500,
 		},
 		t2: {
 			fontSize: '14px',
 			lineHeight: '16px',
-			fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
 			fontWeight: 600,
 		},
 		t3: {
 			fontSize: '12px',
 			lineHeight: '16px',
-			fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
 			fontWeight: 600,
 		},
 	},

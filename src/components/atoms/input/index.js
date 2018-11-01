@@ -10,7 +10,7 @@ const Input = props => {
 
             {/* Render a unit only if one is passed */}
             {props.unit ?
-                <Flex position="absolute" zIndex="2" right={0} top={0} height="100%" alignItems="center" p={1} pr={2} color="grey65" value={props.value} fontFamily="system">
+                <Flex position="absolute" zIndex="2" right={0} top={0} height="100%" alignItems="center" p={1} pr={2} color="grey65" value={props.value}>
                     <Text fontSize={1} css={{ textTransform: 'uppercase' }}>{props.unit}</Text>
                 </Flex> : false
             }
