@@ -19,7 +19,6 @@ const Text = system(
 
 Text.defaultProps = {
 	is: 'span',
-	'fontFamily': 'system',
 	'fontSize': 2,
 	'lineHeight': "16px",
 }

@@ -15,6 +15,7 @@ const Box = system(
 	'maxHeight',
 	'color',
 	'display',
+	'zIndex',
 	// Typography
 	'fontFamily',
 	'fontSize',
@@ -55,7 +56,6 @@ const Box = system(
 )
 
 Box.defaultProps = {
-	'fontFamily': 'system',
 	'fontSize': 2,
 	'lineHeight': "16px",
 }
