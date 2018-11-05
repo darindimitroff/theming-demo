@@ -1,22 +1,24 @@
 import React from 'react'
 import propTypes from 'prop-types'
 
-import system from 'system-components'
+import styled from 'styled-components'
 import {
-	maxWidth
+	space,
+	width,
+	height,
+	size,
+	maxWidth,
 } from 'styled-system'
 
-const Image = system(
-	'space',
-	'width',
-	'height',
-	'size',
-	'maxWidth',
-	'color',
+const Image = styled.img(
+	${ space }
+	${ width }
+	${ height }
+	${ size }
+	${ maxWidth }
 )
 
 Image.defaultProps = {
-	is: 'img',
 	maxWidth: '100%',
 }
 

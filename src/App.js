@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     position: relative;
   }
-  button:focus, input:focus {
+  *:focus {
     z-index: 2;
     outline: 0;
     border-color: #178DF7;
@@ -61,7 +61,8 @@ class App extends Component {
         <ThemeWrapper>
           <Screen>
             <Sidebar>
-              <Box><Button mb={2}>Button text</Button></Box>
+
+              <Button mb={2}>Button text</Button>
 
               <Input mb={2} value="Value" />
 
@@ -81,8 +82,8 @@ class App extends Component {
 
               <Select mb={2} current="Select this thing" icon={<SettingsIcon width="16px" height="16px" />} />
 
-              <LabelWithControl label="Label" layout="stacked">
-                <Input />
+              <LabelWithControl label="Label" layout="inline">
+                <Input unit="px" />
               </LabelWithControl>
 
             </Sidebar>

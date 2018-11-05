@@ -16,5 +16,4 @@ const palette = {
 	black: "#000",
 }
 
-
 export default palette

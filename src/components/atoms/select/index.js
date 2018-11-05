@@ -9,7 +9,7 @@ import { ReactComponent as CaretIcon } from 'assets/caret-down-medium.svg'
 const Select = props => {
     return (
         <Flex {...props} justifyContent="space-between" alignItems="center" border={1} px={2} py={1} color="grey85" bg="grey37" borderColor="grey21" borderRadius={1}>
-            <Flex>
+            <Flex alignItems="center">
                 {props.icon ?
                     <Icon mr={2} glyph={props.icon} />
                     : null}

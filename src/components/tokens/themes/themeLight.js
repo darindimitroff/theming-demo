@@ -2,7 +2,7 @@ import palette from './palette'
 
 const unit = 4;
 
-const theme = {
+const themeLight = {
 	// Space
 	space: [
 		0, unit, unit * 2, unit * 3, unit * 4, unit * 5, unit * 6, unit * 7, unit * 8, unit * 9, unit * 10, unit * 11, unit * 12,
@@ -83,4 +83,4 @@ const theme = {
 	}
 }
 
-export default theme
+export default themeLight
