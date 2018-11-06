@@ -1,6 +1,9 @@
 import React from 'react'
 
 import styled from 'styled-components'
+
+import { variant } from 'styled-system'
+
 import {
 	space,
 	width,
@@ -51,6 +54,24 @@ import {
 	order,
 	flexBasis,
 } from 'styled-system'
+
+// This is the hook for hover states
+const hoverState = variant({
+	prop: 'hoverState',
+  key: 'pseudoStates',
+})
+
+// This is the hook for active states
+const activeState = variant({
+	prop: 'activeState',
+  key: 'pseudoStates',
+})
+
+// This is the hook for active states
+const focusState = variant({
+	prop: 'focusState',
+  key: 'pseudoStates',
+})
 
 const Box = styled.div`
 	${space}
@@ -108,6 +129,9 @@ const Box = styled.div`
 	${alignItems}
 	${order}
 	${flexBasis}
+	${hoverState}
+	${activeState}
+	${focusState}
 	// Opacity
 	// Text Styles
 	// Color Styles (maybe later)

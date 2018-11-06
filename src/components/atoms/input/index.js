@@ -6,7 +6,7 @@ import Text from 'components/primitives/text'
 const Input = props => {
     return (
         <Flex {...props} width={1} alignItems="center" position="relative" overflow="hidden">
-            <Box as="input" width={1} border={1} pl={2} py={1} pr={8} color="grey85" bg="grey17" borderColor="grey10" borderRadius={1} css='&:hover{filter: brightness(110%)}&:focus{filter: brightness(90%)}' />
+            <Box as="input" width={1} border={1} pl={2} py={1} pr={8} color="grey85" bg="grey17" borderColor="grey10" borderRadius={1} hoverState='lighten' focusState='murdered' />
 
             {/* Render a unit only if one is passed */}
             {props.unit ?

@@ -80,7 +80,38 @@ const themeLight = {
 		slow: '200ms ease',
 		slowExit: '200ms ease',
 		slowEntry: '200ms ease',
-	}
+	},
+	pseudoStates: {
+    lighten: {
+			transition: 'all 100ms ease',
+      '&:hover': {
+				filter: 'brightness(1.1)',
+      }
+    },
+    darken: {
+			transition: 'all 100ms ease',
+      '&:active': {
+				filter: 'brightness(.95)',
+      }
+		},
+		focused: {
+			transition: 'all 100ms ease',
+			'&:focus': {
+				zIndex: 2,
+				outline: 0,
+				borderColor: '#178DF7',
+			}
+      },
+		murdered: {
+			transition: 'all 100ms ease',
+			'&:focus': {
+				zIndex: 2,
+				outline: 0,
+				borderColor: '#178DF7',
+				backgroundColor: palette.white,
+			}
+      },
+    },
 }
 
 export default themeLight

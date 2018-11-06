@@ -31,6 +31,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
     line-height: 1.5;
     font-family: inherit;
+    transform: translateZ(0);
   }
   body {
     font-family: Inter UI!important;
@@ -44,11 +45,6 @@ const GlobalStyle = createGlobalStyle`
   button {
     margin: 0;
     position: relative;
-  }
-  *:focus {
-    z-index: 2;
-    outline: 0;
-    border-color: #178DF7;
   }
   /* other styles */
 `
