@@ -5,7 +5,7 @@ import Text from 'components/primitives/text'
 
 const Label = props => {
     return (
-        <Text {...props} letterSpacing="-.2px"
+        <Text {...props} letterSpacing="-.2px" lineHeight={1}
             fontSize={(() => {
                 switch (props.size) {
                     case 'small':

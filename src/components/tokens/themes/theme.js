@@ -41,7 +41,7 @@ const theme = {
 		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
 	},
 	lineHeights: [
-		unit * 3, unit * 4, unit * 5, unit * 6,
+		0, "12px", "16px", "20px",
 	],
 	weights: [400, 500, 600],
 	textStyles: {
