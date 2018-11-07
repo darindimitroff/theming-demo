@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Flex from 'components/atoms/flex'
+import ButtonBase from 'components/atoms/ButtonBase'
 
 const ButtonSegment = props => {
     return (
-        <Flex as="button" width={1} mx="-1px" justifyContent="center" alignItems="center" border={1} px={2} py={1} color="grey85" bg="grey37" borderColor="grey21" hoverState='lighten' activeState='darken' focusState='focused'>{props.children}</Flex>
+        <ButtonBase as="button" width={1} mx="-1px" justifyContent="center" label={props.children} />
     )
 }
 

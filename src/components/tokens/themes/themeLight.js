@@ -10,18 +10,18 @@ const themeLight = {
 	// Color
 	colors: {
 		white: "#FFF",
-		grey99: "#FCFCFC",
-		grey85: palette.grey25,
-		grey76: palette.white,
-		grey65: "#A6A6A6",
-		grey50: palette.grey65,
-		grey45: palette.grey76,
-		grey37: palette.white,
-		grey30: "#4D4D4D",
-		grey25: palette.grey99,
-		grey21: palette.grey76,
-		grey17: palette.grey92,
-		grey10: palette.grey65,
+		grey4500: "#FCFCFC",
+		grey150: palette.grey500,
+		grey200: palette.white,
+		grey250: "#A6A6A6",
+		grey4500: palette.grey250,
+		grey350: palette.grey200,
+		grey400: palette.white,
+		grey450: "#4D4D4D",
+		grey500: palette.grey4500,
+		grey550: palette.grey200,
+		grey600: palette.grey100,
+		grey650: palette.grey250,
 		black: "#000",
 	},
 
@@ -82,17 +82,17 @@ const themeLight = {
 		slowEntry: '200ms ease',
 	},
 	pseudoStates: {
-    lighten: {
+		lighten: {
 			transition: 'all 100ms ease',
-      '&:hover': {
+			'&:hover': {
 				filter: 'brightness(1.1)',
-      }
-    },
-    darken: {
+			}
+		},
+		darken: {
 			transition: 'all 100ms ease',
-      '&:active': {
+			'&:active': {
 				filter: 'brightness(.95)',
-      }
+			}
 		},
 		focused: {
 			transition: 'all 100ms ease',
@@ -101,7 +101,7 @@ const themeLight = {
 				outline: 0,
 				borderColor: '#178DF7',
 			}
-      },
+		},
 		murdered: {
 			transition: 'all 100ms ease',
 			'&:focus': {
@@ -110,8 +110,8 @@ const themeLight = {
 				borderColor: '#178DF7',
 				backgroundColor: palette.white,
 			}
-      },
-    },
+		},
+	},
 }
 
 export default themeLight

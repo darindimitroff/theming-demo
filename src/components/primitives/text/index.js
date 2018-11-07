@@ -34,7 +34,7 @@ Text.defaultProps = {
 	'fontSize': 2,
 	display: 'block',
 	'lineHeight': '16px',
-	'color': 'grey85',
+	'color': 'grey150',
 }
 
 Text.displayName = 'Text'

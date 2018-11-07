@@ -17,10 +17,13 @@ import ButtonGroup from './components/atoms/buttonGroup'
 import ButtonSegment from './components/atoms/buttonSegment'
 import Select from './components/atoms/select'
 
+import TextSection from './components/organisms/TextSection'
+
 import LabelWithControl from './components/molecules/LabelWithControl'
 
 import { ReactComponent as SettingsIcon } from 'assets/settings-medium.svg'
 
+// Reset
 const GlobalStyle = createGlobalStyle`
   ${reset}
   @import url('https://rsms.me/inter/inter-ui.css');
@@ -79,8 +82,10 @@ class App extends Component {
               <Select mb={2} current="Select this thing" icon={<SettingsIcon width="16px" height="16px" />} />
 
               <LabelWithControl label="Label" layout="inline">
-                <Input unit="px" />
+                <Select current="Select this thing" />
               </LabelWithControl>
+
+              <TextSection />
 
             </Sidebar>
           </Screen>

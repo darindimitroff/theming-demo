@@ -9,20 +9,27 @@ const theme = {
 	],
 	// Color
 	colors: {
+		// Neutrals
 		white: palette.white,
-		grey99: palette.grey99,
-		grey85: palette.grey85,
-		grey76: palette.grey76,
-		grey65: palette.grey65,
-		grey50: palette.grey50,
-		grey45: palette.grey45,
-		grey37: palette.grey37,
-		grey30: palette.grey30,
-		grey25: palette.grey25,
-		grey21: palette.grey21,
-		grey17: palette.grey17,
-		grey10: palette.grey10,
+		grey4500: palette.grey4500,
+		grey150: palette.grey150,
+		grey200: palette.grey200,
+		grey250: palette.grey250,
+		grey4500: palette.grey4500,
+		grey350: palette.grey350,
+		grey400: palette.grey400,
+		grey450: palette.grey450,
+		grey500: palette.grey500,
+		grey550: palette.grey550,
+		grey600: palette.grey600,
+		grey650: palette.grey650,
 		black: palette.black,
+		// Reds
+		red86: palette.red86,
+		red78: palette.red78,
+		red68: palette.red68,
+		// Orange
+
 	},
 
 	// Typography
@@ -82,17 +89,17 @@ const theme = {
 		slowEntry: '200ms ease',
 	},
 	pseudoStates: {
-    lighten: {
+		lighten: {
 			transition: 'all 100ms ease',
-      '&:hover': {
+			'&:hover': {
 				filter: 'brightness(1.1)',
-      }
-    },
-    darken: {
+			}
+		},
+		darken: {
 			transition: 'all 100ms ease',
-      '&:active': {
-				filter: 'brightness(.95)',
-      }
+			'&:active': {
+				filter: 'brightness(.95) saturate(1.1)',
+			}
 		},
 		focused: {
 			transition: 'all 100ms ease',
@@ -101,17 +108,17 @@ const theme = {
 				outline: 0,
 				borderColor: '#178DF7',
 			}
-      },
+		},
 		murdered: {
 			transition: 'all 100ms ease',
 			'&:focus': {
 				zIndex: 2,
 				outline: 0,
 				borderColor: '#178DF7',
-				backgroundColor: palette.grey10,
+				backgroundColor: palette.grey650,
 			}
-      },
-    },
-  }
+		},
+	},
+}
 
 export default theme

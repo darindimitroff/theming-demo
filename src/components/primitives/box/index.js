@@ -140,7 +140,7 @@ const Box = styled.div`
 Box.defaultProps = {
 	'fontSize': 2,
 	'lineHeight': "16px",
-	'color': 'grey85',
+	'color': 'grey150',
 }
 
 Box.displayName = Box

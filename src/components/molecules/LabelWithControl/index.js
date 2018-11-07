@@ -14,20 +14,20 @@ const LabelWithControl = props => {
                 <Flex>{props.children}</Flex>
             </Box>)
         case 'inline':
-            return (<Flex alignItems="center">
-                <Label mr={2} width="48px">{props.label}</Label>
+            return (<div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gridGap: '8px', alignItems: 'center' }}>
+                <Label>{props.label}</Label>
                 <Flex>{props.children}</Flex>
-            </Flex>)
+            </div>)
         case 'reverse-stacked':
             return (<Flex flexDirection="column" alignItems="stretch">
                 {props.children}
                 <Label size="small" mt={1} textAlign="center">{props.label}</Label>
             </Flex>)
         default:
-            return (<Flex alignItems="center">
-                <Label mr={2} width="48px">{props.label}</Label>
+            return (<div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gridGap: '8px', alignItems: 'center' }}>
+                <Label>{props.label}</Label>
                 {props.children}
-            </Flex>)
+            </div>)
     }
 }
 
