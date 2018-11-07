@@ -61,30 +61,6 @@ class App extends Component {
           <Screen>
             <Sidebar>
 
-              <Button mb={2}>Button text</Button>
-
-              <Input mb={2} value="Value" />
-
-              <Button mb={2} width={1}>Full-width button</Button>
-
-              <Input mb={2} unit="px" value="Value" />
-
-              <Button width={1} mb={2} icon={<SettingsIcon width="16px" height="16px" />}>Open settings</Button>
-
-              <ButtonGroup mb={2}>
-                <ButtonSegment>Text</ButtonSegment>
-                <ButtonSegment>Text</ButtonSegment>
-                <ButtonSegment>Text</ButtonSegment>
-                <ButtonSegment>Text</ButtonSegment>
-                <ButtonSegment>Text</ButtonSegment>
-              </ButtonGroup>
-
-              <Select mb={2} current="Select this thing" icon={<SettingsIcon width="16px" height="16px" />} />
-
-              <LabelWithControl label="Label" layout="inline">
-                <Select current="Select this thing" />
-              </LabelWithControl>
-
               <TextSection />
 
             </Sidebar>

@@ -6,28 +6,34 @@ import Flex from 'components/atoms/flex'
 import Label from 'components/atoms/label'
 import Icon from 'components/atoms/icon'
 
+import Grid from 'components/atoms/Grid'
+
 const LabelWithControl = props => {
     switch (props.layout) {
         case 'stacked':
-            return (<Box>
-                <Label mb={1}>{props.label}</Label>
-                <Flex>{props.children}</Flex>
-            </Box>)
+            return (
+                <Grid rows="auto auto" gapY={1}>
+                    <Label>{props.label}</Label>
+                    <Flex>{props.children}</Flex>
+                </Grid>)
         case 'inline':
-            return (<div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gridGap: '8px', alignItems: 'center' }}>
-                <Label>{props.label}</Label>
-                <Flex>{props.children}</Flex>
-            </div>)
+            return (
+                <Grid columns="48px 1fr" align="center" gapX={2}>
+                    <Label>{props.label}</Label>
+                    {props.children}
+                </Grid>)
         case 'reverse-stacked':
-            return (<Flex flexDirection="column" alignItems="stretch">
-                {props.children}
-                <Label size="small" mt={1} textAlign="center">{props.label}</Label>
-            </Flex>)
+            return (
+                <Grid rows="auto auto" gapY={1}>
+                    {props.children}
+                    <Label size="small" textAlign="center">{props.label}</Label>
+                </Grid>)
         default:
-            return (<div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gridGap: '8px', alignItems: 'center' }}>
-                <Label>{props.label}</Label>
-                {props.children}
-            </div>)
+            return (
+                <Grid columns="48px 1fr" align="center" gapX={2}>
+                    <Label>{props.label}</Label>
+                    {props.children}
+                </Grid>)
     }
 }
 
