@@ -6,7 +6,12 @@ import Text from 'components/primitives/text'
 const Input = props => {
     return (
         <Flex {...props} alignItems="center" position="relative" overflow="hidden">
-            <Box as="input" width={1} border={1} pl={2} py={1} pr={6} color="grey150" bg="grey600" borderColor="grey650" borderRadius={1} hoverState='lighten' focusState='murdered' />
+            <Box
+                as="input" width={1} border={1} pl={2} py={1} color="grey150" bg="grey600" borderColor="grey650" borderRadius={1} hoverState='lighten' focusState='murdered' pr={props.unit ? 6 : 2} style={{
+                    'left': { 'borderTopLeftRadius': 0, 'borderBottomLeftRadius': 0 },
+                    'right': { 'borderTopRightRadius': 0, 'borderBottomRightRadius': 0 },
+                    default: null
+                }[props.attach]} />
 
             {/* Render a unit only if one is passed */}
             {props.unit ?

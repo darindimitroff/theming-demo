@@ -5,7 +5,11 @@ import Icon from 'components/atoms/icon'
 
 const ButtonBase = props => {
     return (
-        <Flex {...props} alignItems="center" border={1} px={2} py={1} color="grey150" bg="grey400" borderColor="grey550" position="relative" hoverState="lighten" activeState="darken" focusState='focused'>
+        <Flex {...props} alignItems="center" border={1} px={2} py={1} color="grey150" bg="grey400" position="relative" hoverState="lighten" activeState="darken" focusState='focused' borderColor={props.attach ? 'grey650' : 'grey550'} style={{
+            'left': { 'borderTopLeftRadius': 0, 'borderBottomLeftRadius': 0, },
+            'right': { 'borderTopRightRadius': 0, 'borderBottomRightRadius': 0, },
+            default: null
+        }[props.attach]}>
             <Flex>
                 {
                     props.icon ?

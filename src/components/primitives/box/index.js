@@ -31,6 +31,7 @@ import {
 	borderLeft,
 	borderColor,
 	borderRadius,
+	borderTopRightRadius,
 	position,
 	top,
 	right,
@@ -58,19 +59,19 @@ import {
 // This is the hook for hover states
 const hoverState = variant({
 	prop: 'hoverState',
-  key: 'pseudoStates',
+	key: 'pseudoStates',
 })
 
 // This is the hook for active states
 const activeState = variant({
 	prop: 'activeState',
-  key: 'pseudoStates',
+	key: 'pseudoStates',
 })
 
 // This is the hook for active states
 const focusState = variant({
 	prop: 'focusState',
-  key: 'pseudoStates',
+	key: 'pseudoStates',
 })
 
 const Box = styled.div`

@@ -11,11 +11,11 @@ const theme = {
 	colors: {
 		// Neutrals
 		white: palette.white,
-		grey4500: palette.grey4500,
+		grey50: palette.grey50,
 		grey150: palette.grey150,
 		grey200: palette.grey200,
 		grey250: palette.grey250,
-		grey4500: palette.grey4500,
+		grey300: palette.grey300,
 		grey350: palette.grey350,
 		grey400: palette.grey400,
 		grey450: palette.grey450,
@@ -57,7 +57,7 @@ const theme = {
 		},
 		t3: {
 			fontSize: '12px',
-			lineHeight: '16px',
+			lineHeight: '12px',
 			fontWeight: 600,
 		},
 	},

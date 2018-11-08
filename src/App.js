@@ -18,6 +18,7 @@ import ButtonSegment from './components/atoms/buttonSegment'
 import Select from './components/atoms/select'
 
 import TextSection from './components/organisms/TextSection'
+import FakeSection from './components/organisms/FakeSection'
 
 import LabelWithControl from './components/molecules/LabelWithControl'
 
@@ -32,14 +33,12 @@ const GlobalStyle = createGlobalStyle`
   }
   * {
     box-sizing: inherit;
-    line-height: 1.5;
     font-family: inherit;
     transform: translateZ(0);
   }
   body {
     font-family: Inter UI!important;
     font-size: 11px;
-    color: #D9D9D9;
   }
   input {
     min-width: 0;
@@ -62,6 +61,7 @@ class App extends Component {
             <Sidebar>
 
               <TextSection />
+              <FakeSection />
 
             </Sidebar>
           </Screen>

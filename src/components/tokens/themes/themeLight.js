@@ -10,15 +10,15 @@ const themeLight = {
 	// Color
 	colors: {
 		white: "#FFF",
-		grey4500: "#FCFCFC",
+		grey50: "#FCFCFC",
 		grey150: palette.grey500,
 		grey200: palette.white,
 		grey250: "#A6A6A6",
-		grey4500: palette.grey250,
+		grey300: palette.grey250,
 		grey350: palette.grey200,
 		grey400: palette.white,
 		grey450: "#4D4D4D",
-		grey500: palette.grey4500,
+		grey500: palette.grey50,
 		grey550: palette.grey200,
 		grey600: palette.grey100,
 		grey650: palette.grey250,
@@ -34,7 +34,7 @@ const themeLight = {
 		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
 	},
 	lineHeights: [
-		unit * 3, unit * 4, unit * 5, unit * 6,
+		0, "12px", "16px", "20px",
 	],
 	weights: [400, 500, 600],
 	textStyles: {
