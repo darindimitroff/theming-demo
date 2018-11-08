@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components'
 
 import theme from '../tokens/themes/theme'
 import themeLight from '../tokens/themes/themeLight'
-import themeLightBig from '../tokens/themes/themeLightBig'
 
 const ThemeWrapper = ({ children }) => (
     <ThemeProvider theme={theme}>

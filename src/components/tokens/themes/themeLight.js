@@ -112,6 +112,7 @@ const themeLight = {
 			}
 		},
 	},
+	sidebarWidth: '240px',
 }
 
 export default themeLight

@@ -119,6 +119,7 @@ const theme = {
 			}
 		},
 	},
+	sidebarWidth: '240px',
 }
 
 export default theme
