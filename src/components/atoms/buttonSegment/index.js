@@ -4,7 +4,7 @@ import ButtonBase from 'components/atoms/ButtonBase'
 
 const ButtonSegment = props => {
     return (
-        <ButtonBase as="button" width={1} mx="-1px" justifyContent="center" label={props.children} />
+        <ButtonBase {...props} as="button" width={1} mx="-1px" justifyContent="center" label={props.children} px={props.label ? 2 : 0} />
     )
 }
 

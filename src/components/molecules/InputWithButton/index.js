@@ -12,7 +12,7 @@ const InputWithButton = props => {
     return (
         <Flex>
             <Input attach="right" />
-            <ButtonBase as="button" attach="left" label="1" ml="-1px" borderRadius={1} style={{ borderTopLeftRadius: 0, borderBottomLeftRadius: 0, }} />
+            <ButtonBase attach="left" as="button" label={props.label} icon={props.icon} ml="-1px" borderRadius={1} />
         </Flex>
     )
 }

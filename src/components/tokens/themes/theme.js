@@ -2,7 +2,7 @@ import palette from './palette'
 
 const unit = 4;
 
-const theme = {
+const Theme = {
 	// Space
 	space: [
 		0, unit, unit * 2, unit * 3, unit * 4, unit * 5, unit * 6, unit * 7, unit * 8, unit * 9, unit * 10, unit * 11, unit * 12,
@@ -38,7 +38,6 @@ const theme = {
 	],
 	fonts: {
 		'inter': 'Inter UI',
-		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
 	},
 	lineHeights: [
 		0, "12px", "16px", "20px",
@@ -74,7 +73,7 @@ const theme = {
 		'rgba(0, 0, 0, 0.4) 0px 0px 24px 0px, rgba(0, 0, 0, 0.4) 0px 2px 4px 0',
 	],
 	opacity: [
-		0, 1 / 4, 1 / 2, 3 / 4, 1
+		0, 1 / 10, 1 / 2, 3 / 4, 1
 	],
 	motion: {
 		fast: '100ms ease',
@@ -122,4 +121,4 @@ const theme = {
 	sidebarWidth: '240px',
 }
 
-export default theme
+export default Theme

@@ -1,11 +1,10 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import theme from '../tokens/themes/theme'
-import themeLight from '../tokens/themes/themeLight'
+import Theme from 'components/tokens/themes/Theme'
 
-const ThemeWrapper = ({ children }) => (
-    <ThemeProvider theme={theme}>
+const ThemeWrapper = ({ props, children }) => (
+    <ThemeProvider theme={Theme}>
         {children}
     </ThemeProvider>
 )

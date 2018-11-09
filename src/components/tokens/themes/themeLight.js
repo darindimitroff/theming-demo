@@ -2,7 +2,7 @@ import palette from './palette'
 
 const unit = 4;
 
-const themeLight = {
+const ThemeLight = {
 	// Space
 	space: [
 		0, unit, unit * 2, unit * 3, unit * 4, unit * 5, unit * 6, unit * 7, unit * 8, unit * 9, unit * 10, unit * 11, unit * 12,
@@ -11,9 +11,9 @@ const themeLight = {
 	colors: {
 		white: "#FFF",
 		grey50: "#FCFCFC",
-		grey150: palette.grey500,
+		grey150: palette.grey400,
 		grey200: palette.white,
-		grey250: "#A6A6A6",
+		grey250: palette.grey350,
 		grey300: palette.grey250,
 		grey350: palette.grey200,
 		grey400: palette.white,
@@ -30,13 +30,12 @@ const themeLight = {
 		8, 10, 11, 12, 14, 16, 18,
 	],
 	fonts: {
-		arial: 'Arial',
-		'system': '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
+		'inter': 'Inter UI',
 	},
 	lineHeights: [
 		0, "12px", "16px", "20px",
 	],
-	weights: [400, 500, 600],
+	weights: [500, 500, 600],
 	textStyles: {
 		t1: {
 			fontSize: '18px',
@@ -50,7 +49,7 @@ const themeLight = {
 		},
 		t3: {
 			fontSize: '12px',
-			lineHeight: '16px',
+			lineHeight: '12px',
 			fontWeight: 600,
 		},
 	},
@@ -62,6 +61,7 @@ const themeLight = {
 
 	// Misc
 	radii: [0, 2, 3],
+	// WIP
 	shadows: [
 		0,
 		'rgba(0, 0, 0, 0.4) 0px 0px 24px 0px, rgba(0, 0, 0, 0.4) 0px 2px 4px 0',
@@ -115,4 +115,4 @@ const themeLight = {
 	sidebarWidth: '240px',
 }
 
-export default themeLight
+export default ThemeLight
