@@ -12,6 +12,29 @@ import ButtonGroup from 'components/atoms/buttonGroup'
 import LabelWithControl from 'components/molecules/LabelWithControl'
 import InputWithButton from 'components/molecules/InputWithButton'
 
+// Icons
+import { ReactComponent as IconNone } from 'assets/borderStyleNone.svg'
+
+import { ReactComponent as IconTransformCapitalize } from 'assets/transformCapitalize.svg'
+import { ReactComponent as IconTransformSentencecase } from 'assets/transformSentencecase.svg'
+import { ReactComponent as IconTransformLowerCase } from 'assets/transformLowercase.svg'
+
+import { ReactComponent as IconAlignLeft } from 'assets/alignLeft.svg'
+import { ReactComponent as IconAlignRight } from 'assets/alignRight.svg'
+import { ReactComponent as IconAlignCenter } from 'assets/alignCenter.svg'
+import { ReactComponent as IconAlignJustify } from 'assets/alignJustify.svg'
+
+import { ReactComponent as IconFontStyleNone } from 'assets/fontStyleNone.svg'
+import { ReactComponent as IconFontStyleItalic } from 'assets/fontStyleItalic.svg'
+
+import { ReactComponent as IconDecorationOverline } from 'assets/decorationOverline.svg'
+import { ReactComponent as IconDecorationUnderline } from 'assets/decorationUnderline.svg'
+
+import { ReactComponent as IconThreeDots } from 'assets/threeDots.svg'
+
+import { ReactComponent as IconDirectionLtr } from 'assets/directionLtr.svg'
+import { ReactComponent as IconDirectionRtl } from 'assets/directionRtl.svg'
+
 const TextSection = props => {
     return (
         <Section label="Text">
@@ -51,10 +74,10 @@ const TextSection = props => {
 
                 <LabelWithControl label="Align">
                     <ButtonGroup>
-                        <ButtonSegment>1</ButtonSegment>
-                        <ButtonSegment>2</ButtonSegment>
-                        <ButtonSegment>3</ButtonSegment>
-                        <ButtonSegment>4</ButtonSegment>
+                        <ButtonSegment icon={<IconAlignLeft />}></ButtonSegment>
+                        <ButtonSegment icon={<IconAlignCenter />}></ButtonSegment>
+                        <ButtonSegment icon={<IconAlignRight />}></ButtonSegment>
+                        <ButtonSegment icon={<IconAlignJustify />}></ButtonSegment>
                     </ButtonGroup>
                 </LabelWithControl>
 
@@ -62,17 +85,18 @@ const TextSection = props => {
 
                     <LabelWithControl label="Transform" layout="reverse-stacked">
                         <ButtonGroup>
-                            <ButtonSegment>1</ButtonSegment>
-                            <ButtonSegment>2</ButtonSegment>
-                            <ButtonSegment>3</ButtonSegment>
-                            <ButtonSegment>4</ButtonSegment>
+                            <ButtonSegment icon={<IconNone />}></ButtonSegment>
+                            <ButtonSegment icon={<IconTransformCapitalize />}></ButtonSegment>
+                            <ButtonSegment icon={<IconTransformSentencecase />}></ButtonSegment>
+                            <ButtonSegment icon={<IconTransformLowerCase />}></ButtonSegment>
                         </ButtonGroup>
                     </LabelWithControl>
 
                     <LabelWithControl label="Decoration" layout="reverse-stacked">
                         <ButtonGroup>
-                            <ButtonSegment>1</ButtonSegment>
-                            <ButtonSegment>2</ButtonSegment>
+                            <ButtonSegment icon={<IconNone />} />
+                            <ButtonSegment icon={<IconDecorationOverline />} />
+                            <ButtonSegment icon={<IconDecorationUnderline />} />
                         </ButtonGroup>
                     </LabelWithControl>
                 </Grid>
@@ -81,24 +105,24 @@ const TextSection = props => {
 
                     <LabelWithControl label="Font Style" layout="reverse-stacked">
                         <ButtonGroup>
-                            <ButtonSegment>1</ButtonSegment>
-                            <ButtonSegment>2</ButtonSegment>
+                            <ButtonSegment icon={<IconFontStyleNone />} />
+                            <ButtonSegment icon={<IconFontStyleItalic />} />
                         </ButtonGroup>
                     </LabelWithControl>
 
                     <LabelWithControl label="Direction" layout="reverse-stacked">
                         <ButtonGroup>
-                            <ButtonSegment>1</ButtonSegment>
-                            <ButtonSegment>2</ButtonSegment>
-                            <ButtonSegment>3</ButtonSegment>
+                            <ButtonSegment icon={<IconDirectionLtr />} />
+                            <ButtonSegment icon={<IconDirectionRtl />} />
                         </ButtonGroup>
                     </LabelWithControl>
 
                     <LabelWithControl label="Columns" layout="reverse-stacked">
-                        <InputWithButton />
+                        <InputWithButton icon={<IconThreeDots />} />
                     </LabelWithControl>
 
                 </Grid>
+
             </Grid>
         </Section>
     )

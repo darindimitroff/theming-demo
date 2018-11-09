@@ -4,20 +4,14 @@ import styled from 'styled-components'
 import Grid from 'components/atoms/Grid'
 
 import Section from 'components/atoms/section'
-import Select from 'components/atoms/select'
-import Input from 'components/atoms/input'
-import ButtonSegment from 'components/atoms/buttonSegment'
-import ButtonGroup from 'components/atoms/buttonGroup'
+import Button from 'components/atoms/button'
 
-import LabelWithControl from 'components/molecules/LabelWithControl'
-import InputWithButton from 'components/molecules/InputWithButton'
-
-const TextSection = props => {
+const FakeSection = props => {
     return (
         <Section label="Fake Section">
-            I am a fake section
+            <Button width={1} onClick={props.swapTheme}>Swap themes</Button>
         </Section>
     )
 }
 
-export default TextSection
+export default FakeSection
