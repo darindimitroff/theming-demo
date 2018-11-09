@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import Box from 'components/primitives/box'
 
@@ -54,5 +55,14 @@ const Grid = styled(Box)`
     ${gapY}
     ${gap}
 `
+
+Grid.propTypes = {
+    columns: PropTypes.string,
+    align: PropTypes.string,
+    direction: PropTypes.string,
+    ...gapX.propTypes,
+    ...gapY.propTypes,
+    ...gap.propTypes,
+}
 
 export default Grid

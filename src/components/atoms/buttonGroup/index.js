@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Box from 'components/primitives/box'
-import ButtonSegment from 'components/atoms/buttonSegment'
+import ButtonSegment from 'components/atoms/ButtonSegment'
 
 const ButtonGroupWrapper = styled(Box)`
     width: 100%;
-    display: flex;
+    display: Flex;
     padding-left: ${props => props.theme.borders[1]}px;
     padding-right: ${props => props.theme.borders[1]}px;
     *:first-child {

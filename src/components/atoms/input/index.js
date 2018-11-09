@@ -1,13 +1,15 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import Box from 'components/primitives/box'
-import Flex from 'components/atoms/flex'
+import Flex from 'components/atoms/Flex'
 import Text from 'components/primitives/text'
 
 const Input = props => {
     return (
         <Flex {...props} alignItems="center" position="relative" overflow="hidden">
             <Box
-                as="input" width={1} border={1} pl={2} py={1} color="grey150" bg="grey600" borderColor="grey650" borderRadius={1} hoverState='lighten' focusState='murdered' pr={props.unit ? 6 : 2} style={{
+                as="Input" width={1} border={1} pl={2} py={1} color="grey150" bg="grey600" borderColor="grey650" borderRadius={1} hoverState='lighten' focusState='murdered' pr={props.unit ? 6 : 2} style={{
                     'left': { 'borderTopLeftRadius': 0, 'borderBottomLeftRadius': 0 },
                     'right': { 'borderTopRightRadius': 0, 'borderBottomRightRadius': 0 },
                     default: null
@@ -21,6 +23,11 @@ const Input = props => {
             }
         </Flex>
     )
+}
+
+Input.PropTypes = {
+    attach: PropTypes.oneOf('left', 'right'),
+    unit: PropTypes.string
 }
 
 export default Input

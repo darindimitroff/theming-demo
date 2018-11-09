@@ -1,17 +1,23 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import Box from 'components/primitives/box'
 
-import Icon from 'components/atoms/icon'
-import Flex from 'components/atoms/flex'
+import Icon from 'components/atoms/Icon'
+import Flex from 'components/atoms/Flex'
 
 import ButtonBase from 'components/atoms/ButtonBase'
 
-import { ReactComponent as CaretIcon } from 'assets/caret-down-medium.svg'
+import { ReactComponent as Careticon } from 'assets/caret-down-medium.svg'
 
 const Select = props => {
     return (
-        <ButtonBase {...props} as="button" width={1} justifyContent="space-between" borderRadius={1} label={props.current} secondaryIcon={<CaretIcon width="9px" height="6px" />} />
+        <ButtonBase {...props} as="Button" width={1} justifyContent="space-between" borderRadius={1} Label={props.current} secondaryicon={<Careticon width="9px" height="6px" />} />
     )
+}
+
+Select.propTypes = {
+    current: PropTypes.string,
 }
 
 export default Select

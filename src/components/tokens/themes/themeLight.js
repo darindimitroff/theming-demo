@@ -11,6 +11,7 @@ const ThemeLight = {
 	colors: {
 		white: "#FFF",
 		grey50: "#FCFCFC",
+		grey100: palette.grey100,
 		grey150: palette.grey400,
 		grey200: palette.white,
 		grey250: palette.grey350,
@@ -19,7 +20,7 @@ const ThemeLight = {
 		grey400: palette.white,
 		grey450: "#4D4D4D",
 		grey500: palette.grey50,
-		grey550: palette.grey200,
+		grey550: palette.grey150,
 		grey600: palette.grey100,
 		grey650: palette.grey250,
 		black: "#000",
@@ -112,7 +113,7 @@ const ThemeLight = {
 			}
 		},
 	},
-	sidebarWidth: '240px',
+	SidebarWidth: '240px',
 }
 
 export default ThemeLight

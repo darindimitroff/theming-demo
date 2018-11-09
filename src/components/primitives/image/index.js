@@ -18,6 +18,14 @@ const Image = styled.img(
 	${ maxWidth }
 )
 
+Image.propTypes = {
+	...space.propTypes,
+	...width.propTypes,
+	...height.propTypes,
+	...size.propTypes,
+	...maxWidth.propTypes,
+}
+
 Image.defaultProps = {
 	maxWidth: '100%',
 }

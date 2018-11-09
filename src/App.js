@@ -8,17 +8,17 @@ import reset from 'styled-reset'
 import Theme from './components/tokens/themes/theme'
 import ThemeLight from './components/tokens/themes/themeLight'
 
-import Screen from 'components/organisms/screen'
-import Sidebar from 'components/organisms/sidebar'
+import Screen from 'components/organisms/Screen'
+import Sidebar from 'components/organisms/Sidebar'
 import Grid from 'react-css-grid'
 
 import Box from './components/primitives/box'
 
-import Input from './components/atoms/input'
-import Button from './components/atoms/button'
-import ButtonGroup from './components/atoms/buttonGroup'
-import ButtonSegment from './components/atoms/buttonSegment'
-import Select from './components/atoms/select'
+import Input from './components/atoms/Input'
+import Button from './components/atoms/Button'
+import ButtonGroup from './components/atoms/ButtonGroup'
+import ButtonSegment from './components/atoms/ButtonSegment'
+import Select from './components/atoms/Select'
 
 import TextSection from './components/organisms/TextSection'
 import FakeSection from './components/organisms/FakeSection'
@@ -39,11 +39,11 @@ const GlobalStyle = createGlobalStyle`
     font-family: Inter UI!important;
     font-size: 11px;
   }
-  input {
+  Input {
     min-width: 0;
     margin: 0;
   }
-  button {
+  Button {
     margin: 0;
     position: relative;
   }

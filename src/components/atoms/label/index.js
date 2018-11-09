@@ -23,7 +23,7 @@ const Label = props => {
 
 Label.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
-    children: PropTypes.oneOfType([PropTypes.string, PropTypes.node])
+    children: PropTypes.string,
 }
 
 Label.defaultProps = {

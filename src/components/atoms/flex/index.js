@@ -3,7 +3,7 @@ import Box from 'components/primitives/box'
 
 const Flex = props => {
     return (
-        <Box display="flex" {...props}>{props.children}</Box>
+        <Box display="Flex" {...props}>{props.children}</Box>
     )
 }
 

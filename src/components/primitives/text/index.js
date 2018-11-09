@@ -30,6 +30,20 @@ const Text = styled.span`
 	${display}
 `
 
+Text.propTypes = {
+	...space.propTypes,
+	...width.propTypes,
+	...color.propTypes,
+	...fontSize.propTypes,
+	...fontWeight.propTypes,
+	...fontFamily.propTypes,
+	...lineHeight.propTypes,
+	...letterSpacing.propTypes,
+	...textAlign.propTypes,
+	...textStyle.propTypes,
+	...display.propTypes,
+}
+
 Text.defaultProps = {
 	'fontSize': 2,
 	display: 'block',

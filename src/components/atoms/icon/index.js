@@ -1,5 +1,7 @@
 import React from 'react'
-import Flex from 'components/atoms/flex'
+import PropTypes from 'prop-types'
+
+import Flex from 'components/atoms/Flex'
 
 const Icon = props => {
     return (
@@ -11,6 +13,12 @@ const Icon = props => {
             {props.glyph}
         </Flex>
     )
+}
+
+Icon.propTypes = {
+    width: PropTypes.oneOfType[PropTypes.number, PropTypes.string],
+    height: PropTypes.oneOfType[PropTypes.number, PropTypes.string],
+    size: PropTypes.oneOf[PropTypes.number, PropTypes.string, 'small', 'large'],
 }
 
 Icon.defaultProps = {

@@ -12,6 +12,7 @@ const Theme = {
 		// Neutrals
 		white: palette.white,
 		grey50: palette.grey50,
+		grey100: palette.grey100,
 		grey150: palette.grey150,
 		grey200: palette.grey200,
 		grey250: palette.grey250,
@@ -118,7 +119,7 @@ const Theme = {
 			}
 		},
 	},
-	sidebarWidth: '240px',
+	SidebarWidth: '240px',
 }
 
 export default Theme

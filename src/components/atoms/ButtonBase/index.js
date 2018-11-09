@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-import Flex from 'components/atoms/flex'
-import Icon from 'components/atoms/icon'
+import Flex from 'components/atoms/Flex'
+import Icon from 'components/atoms/Icon'
 
 const ButtonBase = props => {
     return (
@@ -13,18 +14,26 @@ const ButtonBase = props => {
             <Flex>
                 {
                     props.icon ?
-                        <Icon mr={props.label ? 2 : 0} glyph={props.icon} size="large" />
+                        <Icon mr={props.Label ? 2 : 0} glyph={props.icon} size="large" />
                         : null
                 }
-                {props.label}
+                {props.Label}
             </Flex>
             {
-                props.secondaryIcon ?
-                    <Icon width="12px" height="12px" glyph={props.secondaryIcon} />
+                props.secondaryicon ?
+                    <Icon width="12px" height="12px" glyph={props.secondaryicon} />
                     : null
             }
         </Flex>
     )
+}
+
+ButtonBase.propTypes = {
+    label: PropTypes.string,
+    icon: PropTypes.node,
+    secondaryIcon: PropTypes.node,
+    tooltip: PropTypes.string,
+    attach: PropTypes.oneOf('left', 'right'),
 }
 
 export default ButtonBase

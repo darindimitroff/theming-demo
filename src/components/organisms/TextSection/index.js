@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 import Grid from 'components/atoms/Grid'
 
-import Section from 'components/atoms/section'
-import Select from 'components/atoms/select'
-import Input from 'components/atoms/input'
-import ButtonSegment from 'components/atoms/buttonSegment'
-import ButtonGroup from 'components/atoms/buttonGroup'
+import Section from 'components/atoms/Section'
+import Select from 'components/atoms/Select'
+import Input from 'components/atoms/Input'
+import ButtonSegment from 'components/atoms/ButtonSegment'
+import ButtonGroup from 'components/atoms/ButtonGroup'
 
 import LabelWithControl from 'components/molecules/LabelWithControl'
 import InputWithButton from 'components/molecules/InputWithButton'
@@ -37,42 +37,42 @@ import { ReactComponent as IconDirectionRtl } from 'assets/directionRtl.svg'
 
 const TextSection = props => {
     return (
-        <Section label="Text">
+        <Section Label="Text">
             <Grid gapY={2} direction="row">
 
-                <LabelWithControl label="Font">
+                <LabelWithControl Label="Font">
                     <Select current="Arial" />
                 </LabelWithControl>
 
-                <LabelWithControl label="Weight">
+                <LabelWithControl Label="Weight">
                     <Select current="400 - Normal" />
                 </LabelWithControl>
 
                 <Grid columns="1fr 1fr" gapX={2}>
-                    <LabelWithControl label="Size">
+                    <LabelWithControl Label="Size">
                         <Input unit="px" />
                     </LabelWithControl>
 
-                    <LabelWithControl label="Height">
+                    <LabelWithControl Label="Height">
                         <Input unit="px" />
                     </LabelWithControl>
                 </Grid>
 
                 <Grid columns="1fr 1fr" gapX={2}>
-                    <LabelWithControl label="Letter">
+                    <LabelWithControl Label="Letter">
                         <Input unit="px" />
                     </LabelWithControl>
 
-                    <LabelWithControl label="Indent">
+                    <LabelWithControl Label="Indent">
                         <Input unit="px" />
                     </LabelWithControl>
                 </Grid>
 
-                <LabelWithControl label="Color">
+                <LabelWithControl Label="Color">
                     <Input />
                 </LabelWithControl>
 
-                <LabelWithControl label="Align">
+                <LabelWithControl Label="Align">
                     <ButtonGroup>
                         <ButtonSegment icon={<IconAlignLeft />}></ButtonSegment>
                         <ButtonSegment icon={<IconAlignCenter />}></ButtonSegment>
@@ -83,7 +83,7 @@ const TextSection = props => {
 
                 <Grid columns="1fr 1fr" gapX={2}>
 
-                    <LabelWithControl label="Transform" layout="reverse-stacked">
+                    <LabelWithControl Label="Transform" layout="reverse-stacked">
                         <ButtonGroup>
                             <ButtonSegment icon={<IconNone />}></ButtonSegment>
                             <ButtonSegment icon={<IconTransformCapitalize />}></ButtonSegment>
@@ -92,7 +92,7 @@ const TextSection = props => {
                         </ButtonGroup>
                     </LabelWithControl>
 
-                    <LabelWithControl label="Decoration" layout="reverse-stacked">
+                    <LabelWithControl Label="Decoration" layout="reverse-stacked">
                         <ButtonGroup>
                             <ButtonSegment icon={<IconNone />} />
                             <ButtonSegment icon={<IconDecorationOverline />} />
@@ -103,21 +103,21 @@ const TextSection = props => {
 
                 <Grid columns="1fr 1fr 1fr" gapX={2}>
 
-                    <LabelWithControl label="Font Style" layout="reverse-stacked">
+                    <LabelWithControl Label="Font Style" layout="reverse-stacked">
                         <ButtonGroup>
                             <ButtonSegment icon={<IconFontStyleNone />} />
-                            <ButtonSegment icon={<IconFontStyleItalic />} />
+                            <ButtonSegment icon={<IconFontStyleItalic />} tooltip="Does this work?" />
                         </ButtonGroup>
                     </LabelWithControl>
 
-                    <LabelWithControl label="Direction" layout="reverse-stacked">
+                    <LabelWithControl Label="Direction" layout="reverse-stacked">
                         <ButtonGroup>
                             <ButtonSegment icon={<IconDirectionLtr />} />
                             <ButtonSegment icon={<IconDirectionRtl />} />
                         </ButtonGroup>
                     </LabelWithControl>
 
-                    <LabelWithControl label="Columns" layout="reverse-stacked">
+                    <LabelWithControl Label="Columns" layout="reverse-stacked">
                         <InputWithButton icon={<IconThreeDots />} />
                     </LabelWithControl>
 
