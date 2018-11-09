@@ -5,8 +5,8 @@ import { ThemeProvider } from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
 
-import Theme from './components/tokens/themes/Theme'
-import ThemeLight from './components/tokens/themes/ThemeLight'
+import Theme from './components/tokens/themes/theme'
+import ThemeLight from './components/tokens/themes/themeLight'
 
 import Screen from 'components/organisms/screen'
 import Sidebar from 'components/organisms/sidebar'
