@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styled from 'styled-components'
 
 import { variant } from 'styled-system'
@@ -31,7 +29,6 @@ import {
 	borderLeft,
 	borderColor,
 	borderRadius,
-	borderTopRightRadius,
 	position,
 	top,
 	right,

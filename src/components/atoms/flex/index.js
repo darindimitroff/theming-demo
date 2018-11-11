@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from 'components/primitives/box'
+import Box from 'components/primitives/Box'
 
 const Flex = props => {
     return (

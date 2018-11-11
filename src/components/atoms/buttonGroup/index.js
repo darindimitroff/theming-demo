@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Box from 'components/primitives/box'
-import ButtonSegment from 'components/atoms/ButtonSegment'
+import Box from 'components/primitives/Box'
 
 const ButtonGroupWrapper = styled(Box)`
     width: 100%;

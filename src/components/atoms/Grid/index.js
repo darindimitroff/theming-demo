@@ -1,9 +1,8 @@
-import React from 'react'
 import PropTypes from 'prop-types'
 
-import Box from 'components/primitives/box'
+import Box from 'components/primitives/Box'
 
-import { style } from 'styled-system'
+import {style} from 'styled-system'
 
 import styled from 'styled-components'
 
@@ -62,7 +61,7 @@ Grid.propTypes = {
     direction: PropTypes.string,
     ...gapX.propTypes,
     ...gapY.propTypes,
-    ...gap.propTypes,
+    ...gap.propTypes
 }
 
 export default Grid

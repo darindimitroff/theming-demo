@@ -1,7 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
-
-import Grid from 'components/atoms/Grid'
 
 import Section from 'components/atoms/Section'
 import Button from 'components/atoms/Button'

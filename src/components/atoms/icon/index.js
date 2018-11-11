@@ -16,9 +16,9 @@ const Icon = props => {
 }
 
 Icon.propTypes = {
-    width: PropTypes.oneOfType[PropTypes.number, PropTypes.string],
-    height: PropTypes.oneOfType[PropTypes.number, PropTypes.string],
-    size: PropTypes.oneOf[PropTypes.number, PropTypes.string, 'small', 'large'],
+    width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    size: PropTypes.oneOf([PropTypes.number, PropTypes.string, 'small', 'large']),
 }
 
 Icon.defaultProps = {
