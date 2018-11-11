@@ -1,5 +1,3 @@
-import palette from './palette'
-
 const unit = 4;
 
 const ThemeLight = {
@@ -9,21 +7,50 @@ const ThemeLight = {
 	],
 	// Color
 	colors: {
+		// Neutrals
 		white: "#FFF",
 		grey50: "#FCFCFC",
-		grey100: palette.grey100,
-		grey150: palette.grey400,
-		grey200: palette.white,
-		grey250: palette.grey350,
-		grey300: palette.grey250,
-		grey350: palette.grey200,
-		grey400: palette.white,
+		grey100: "#EBEBEB",
+		grey150: "#5E5E5E",
+		grey200: "#FFF",
+		grey250: "#737373",
+		grey300: "#A6A6A6",
+		grey350: "#C2C2C2",
+		grey400: "#FFF",
 		grey450: "#4D4D4D",
-		grey500: palette.grey50,
-		grey550: palette.grey150,
-		grey600: palette.grey100,
-		grey650: palette.grey250,
+		grey500: "#FCFCFC",
+		grey550: "#D9D9D9",
+		grey600: "#EBEBEB",
+		grey650: "#A6A6A6",
 		black: "#000",
+		// Reds
+		red50: "#FF5266",
+		red100: "#EA384C",
+		red250: "#FA233B",
+		red300: "#C92C3F",
+		// Oranges
+		orange50: "#E89153",
+		orange100: "#FF542E",
+		orange250: "#D44F33",
+		// Yellows
+		yellow50: "#FACB4B",
+		yellow100: "#C28F0E",
+		// Green
+		green50: "#2AD986",
+		green100: "#27D86E",
+		green250: "#109155",
+		// Blues
+		blue50: "#6BB0FF",
+		blue100: "#3490EB",
+		blue250: "#178DF7",
+		blue300: "#3B79C3",
+		// Purples
+		purple50: "#AE94FF",
+		purple100: "#8E66FF",
+		purple250: "#7868BE",
+		// Pinks
+		pink50: "#E437FF",
+		pink100: "#B5518C",
 	},
 
 	// Typography
@@ -109,7 +136,7 @@ const ThemeLight = {
 				zIndex: 2,
 				outline: 0,
 				borderColor: '#178DF7',
-				backgroundColor: palette.white,
+				backgroundColor: '#FFF',
 			}
 		},
 	},

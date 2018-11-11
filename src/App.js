@@ -10,15 +10,6 @@ import ThemeLight from './components/tokens/themes/themeLight'
 
 import Screen from 'components/organisms/Screen'
 import Sidebar from 'components/organisms/Sidebar'
-import Grid from 'react-css-grid'
-
-import Box from './components/primitives/box'
-
-import Input from './components/atoms/Input'
-import Button from './components/atoms/Button'
-import ButtonGroup from './components/atoms/ButtonGroup'
-import ButtonSegment from './components/atoms/ButtonSegment'
-import Select from './components/atoms/Select'
 
 import TextSection from './components/organisms/TextSection'
 import FakeSection from './components/organisms/FakeSection'
@@ -55,7 +46,7 @@ class App extends Component {
     theme: Theme
   }
   swapTheme = () => {
-    { this.state.theme === Theme ? this.setState({ theme: ThemeLight }) : this.setState({ theme: Theme }) }
+    this.state.theme === Theme ? this.setState({ theme: ThemeLight }) : this.setState({ theme: Theme })
   }
   render() {
     return (
