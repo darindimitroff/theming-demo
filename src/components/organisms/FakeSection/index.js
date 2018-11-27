@@ -5,7 +5,7 @@ import Button from 'components/atoms/Button'
 
 const FakeSection = props => {
     return (
-        <Section Label="Fake Section">
+        <Section label="Fake Section">
             <Button width={1} onClick={props.swapTheme} tooltip="This changes the theme">Swap themes</Button>
         </Section>
     )

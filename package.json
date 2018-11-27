@@ -7,7 +7,7 @@
     "react-css-grid": "^2.0.0-0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5",
-    "styled-components": "^4.0.2",
+    "styled-components": "^4.1.1",
     "styled-reset": "^1.6.0",
     "styled-system": "^3.1.11"
   },
