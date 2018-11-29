@@ -3,20 +3,13 @@ import PropTypes from 'prop-types'
 
 import Flex from 'components/atoms/Flex'
 import Input from 'components/atoms/Input'
-import ButtonBase from 'components/atoms/ButtonBase'
+import Button from 'components/atoms/Button'
 
 const InputWithButton = props => {
   return (
     <Flex>
       <Input attach="right" />
-      <ButtonBase
-        attach="left"
-        as="button"
-        label={props.label}
-        icon={props.icon}
-        ml="-1px"
-        borderRadius={1}
-      />
+      <Button attach="left" as="button" label={props.label} icon={props.icon} />
     </Flex>
   )
 }

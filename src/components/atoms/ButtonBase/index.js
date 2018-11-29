@@ -20,8 +20,16 @@ const ButtonBase = props => {
       borderColor={props.attach ? 'grey650' : 'grey550'}
       style={
         {
-          left: { borderTopLeftRadius: 0, borderBottomLeftRadius: 0 },
-          right: { borderTopRightRadius: 0, borderBottomRightRadius: 0 },
+          left: {
+            borderTopLeftRadius: 0,
+            borderBottomLeftRadius: 0,
+            marginLeft: -1,
+          },
+          right: {
+            borderTopRightRadius: 0,
+            borderBottomRightRadius: 0,
+            marginRight: -1,
+          },
           default: null,
         }[props.attach]
       }

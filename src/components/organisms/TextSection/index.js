@@ -102,10 +102,7 @@ const TextSection = props => {
           <LabelWithControl label="Font Style" layout="reverse-stacked">
             <ButtonGroup>
               <ButtonSegment icon={<IconFontStyleNone />} />
-              <ButtonSegment
-                icon={<IconFontStyleItalic />}
-                tooltip="Does this work?"
-              />
+              <ButtonSegment icon={<IconFontStyleItalic />} />
             </ButtonGroup>
           </LabelWithControl>
 
